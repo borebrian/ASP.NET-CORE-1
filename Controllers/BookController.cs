@@ -17,9 +17,10 @@ namespace Fuela_clients.Controllers
             _Booksrepository = new Booksrepository();
 
         }
-        public List<BooksModel> GetAllBooks()
+        public ViewResult GetAllBooks()
         {
-            return _Booksrepository.GetAllBooks();
+            var data= _Booksrepository.GetAllBooks();
+            return View();
         }
          public List<BooksModel>  searchbook(string bookname,string authorname)
         {

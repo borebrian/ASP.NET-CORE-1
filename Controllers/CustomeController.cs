@@ -8,9 +8,17 @@ namespace Fuela_clients.Controllers
 {
     public class CustomeController :Controller
     {
-        public string Index()
+        public ViewResult Index()
         {
-            return "Index string called";
+            return View("Aboutus");
+        } 
+        public ViewResult Aboutus()
+        {
+            return View();
+        }
+        public ViewResult Contactus()
+        {
+            return View();
         }
     }
 }

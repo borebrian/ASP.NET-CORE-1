@@ -20,7 +20,7 @@ namespace Fuela_clients.Repository
 
         public List<BooksModel> SearchBooks(string title, string authorname)
         {
-            return OurDataSource().Where(x => x.Title.Contains(title) && x.Author.Contains(authorname)).ToList();
+            return OurDataSource().Where(x => x.Title.Contains(title) || x.Author.Contains(authorname)).ToList();
         }
 
         private List<BooksModel> OurDataSource()
