@@ -12,7 +12,7 @@ namespace Fuela_clients.Controllers
     {
         private readonly Booksrepository _Booksrepository = null;
 
-       public  BookController(int id)
+       public  BookController()
         {
             _Booksrepository = new Booksrepository();
 
@@ -23,7 +23,7 @@ namespace Fuela_clients.Controllers
         }
          public List<BooksModel>  searchbook(string bookname,string authorname)
         {
-            return _Booksrepository.SearchBooks(bookname, authorname);
+           return _Booksrepository.SearchBooks(bookname,authorname);
         }
        
     }
