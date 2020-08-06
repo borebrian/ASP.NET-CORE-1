@@ -10,7 +10,7 @@ namespace Fuela_clients.Controllers
     {
         public ViewResult Index()
         {
-            return View("Aboutus");
+            return View("TempView/TempView.cshtml");
         } 
         public ViewResult Aboutus()
         {
