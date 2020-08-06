@@ -9,9 +9,30 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
 </head>
 <body>
     <h1>Welcome to books library</h1>
     <p>This is home page</p>
+    @{ 
+        var list = new List<int>()
+        {
+            1,2,3,4,5,6,7,8
+        };
+        foreach(var item in list)
+        {
+            <h1 class="bg-danger">@item</h1>
+          
+<img src="~/image/CAM1.png" style="width:50px;height:50px;" />
+        }
+    }
+    <h1>brian@nnnns.com</h1>
 </body>
+<script src="~/lib/jquery/jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        alert("Page loaded");
+    });
+</script>
 </html>
