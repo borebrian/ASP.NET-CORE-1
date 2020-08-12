@@ -31,28 +31,38 @@ namespace Fuela_clients.Repository
                 {
                     ID=1,
                     Title="C@",
-                    Author="Ken walibora"
+                    Author="Ken walibora",
+                    Description="This is all about swahili books"
+                  
 
                 },  new BooksModel()
                 {
                     ID=2,
                     Title="Kidagaa",
-                    Author="Ken walibora"
+                    Author="Stephen Gates",
+                    Description="This describes more about Kidagaa Kimemwozea"
+
 
                 }, new BooksModel() {
                     ID=3,
                     Title="JAVA",
-                    Author="Ken walibora"
+                    Author="Bill Gates",
+                    Description="This is all about Microsoft Office"
+
 
                 }, new BooksModel() {
                     ID=4,
                     Title="PYTHON",
-                    Author="Ken walibora"
+                    Author="Henry Gerton",
+                    Description="This is all about python Office"
+
 
                 }, new BooksModel() {
                     ID=5,
                     Title="PHP",
-                    Author="Ken walibora"
+                    Author="Melinda Gates",
+                    Description="The co founders of Microsoft"
+
 
                 },
             };

@@ -15,7 +15,10 @@ namespace Fuela_clients.Models
         public string Title { get; set; }
 
         [Required(ErrorMessage = "Author is required.")]
-        public string Author { get; set; }
+        public string Author { get; set; }  
+        
+        [Required(ErrorMessage = "Description is required.")]
+        public string Description { get; set; }
 
       
     }
