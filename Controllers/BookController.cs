@@ -22,6 +22,11 @@ namespace Fuela_clients.Controllers
             var data= _Booksrepository.GetAllBooks();
             return View(data);
         }
+        public ViewResult GetBook(int id)
+        {
+            var data = _Booksrepository.GetBookById(id);
+            return View(data);
+        }
          public List<BooksModel>  searchbook(string bookname,string authorname)
         {
            return _Booksrepository.SearchBooks(bookname,authorname);

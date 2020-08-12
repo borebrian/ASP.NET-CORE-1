@@ -9,7 +9,7 @@
         <p>
             This is our bookstore system
         </p>
-        <a href="#"  class="btn btn-primary">Search books</a>
+        <a href="#" class="btn btn-primary">Search books</a>
     </div>
 </div>
 <div class="py-5 bg-light">
@@ -62,8 +62,15 @@
     </div>
 
 </div>
+@section alertAfterLoad{
+    <script>
+        $(document).ready(function () {
+            alert("Page loaded");
+        });
+    </script>
+}
+
 @*<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>*@
- 
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>*@

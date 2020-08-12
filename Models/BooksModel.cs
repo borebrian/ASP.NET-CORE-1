@@ -18,6 +18,9 @@ namespace Fuela_clients.Models
         public string Author { get; set; }  
         
         [Required(ErrorMessage = "Description is required.")]
+        public string Category { get; set; }  
+        public string Language { get; set; }   
+        public int TotalPages { get; set; } 
         public string Description { get; set; }
 
       

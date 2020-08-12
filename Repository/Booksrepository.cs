@@ -33,6 +33,9 @@ namespace Fuela_clients.Repository
                     Title="C@",
                     Author="Ken walibora",
                     Description="This is all about swahili books"
+                    ,TotalPages=1077,
+                    Language="English",
+                    Category="Programming"
                   
 
                 },  new BooksModel()
@@ -41,6 +44,9 @@ namespace Fuela_clients.Repository
                     Title="Kidagaa",
                     Author="Stephen Gates",
                     Description="This describes more about Kidagaa Kimemwozea"
+                    ,TotalPages=560,
+                    Language="English",
+                    Category="Set book"
 
 
                 }, new BooksModel() {
@@ -48,6 +54,9 @@ namespace Fuela_clients.Repository
                     Title="JAVA",
                     Author="Bill Gates",
                     Description="This is all about Microsoft Office"
+                    ,TotalPages=1077,
+                    Language="English",
+                    Category="Programming skills"
 
 
                 }, new BooksModel() {
@@ -55,6 +64,9 @@ namespace Fuela_clients.Repository
                     Title="PYTHON",
                     Author="Henry Gerton",
                     Description="This is all about python Office"
+                    ,TotalPages=1077,
+                    Language="English",
+                    Category="Core programming"
 
 
                 }, new BooksModel() {
@@ -62,6 +74,9 @@ namespace Fuela_clients.Repository
                     Title="PHP",
                     Author="Melinda Gates",
                     Description="The co founders of Microsoft"
+                    ,TotalPages=1077,
+                    Language="English",
+                    Category="Programming basic"
 
 
                 },
