@@ -13,6 +13,9 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
 </head>
 <body>
+    @{ 
+        dynamic data = ViewBag.data;
+    }
     <h1>Welcome to books library</h1>
     <p>This is home page</p>
     @{ 
@@ -27,7 +30,7 @@
 <img src="~/image/CAM1.png" style="width:50px;height:50px;" />
         }
     }
-    <h1>brian@nnnns.com</h1>
+    <h1>@data.id</h1>
 </body>
 <script src="~/lib/jquery/jquery.js"></script>
 <script>
