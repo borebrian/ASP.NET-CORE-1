@@ -20,6 +20,7 @@ namespace Fuela_clients.Controllers
 
         public IActionResult Index()
         {
+          
             return View();
         }
 
