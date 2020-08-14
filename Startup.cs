@@ -66,23 +66,7 @@ namespace Fuela_clients
                     name: "default",
                     pattern: "{controller=Custome}/{action=Index}/{id?}");
 
-                //app.Use(async (context, next) =>
-                //{
-                //    if (env.IsDevelopment())
-                //     {
-                //        await context.Response.WriteAsync("Hello from developers");
-                //    }
-                //    else if (env.IsProduction())
-                //    {
-                //        await context.Response.WriteAsync("Hello from Production");
-                //    }
-                //    else if (env.IsStaging())
-                //    {
-                //        await context.Response.WriteAsync("Hello from staging");
-                //    }
-                //    //await context.Response.WriteAsync(env.EnvironmentName);
-                //    //await next();
-                //});
+               
             });
         }
     }
