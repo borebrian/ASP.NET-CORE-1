@@ -36,7 +36,7 @@ namespace Fuela_clients
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-
+               
 
             }
             else

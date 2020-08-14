@@ -32,5 +32,9 @@ namespace Fuela_clients.Controllers
            return _Booksrepository.SearchBooks(bookname,authorname);
         }
        
+        public ViewResult AddNewBook()
+        {
+            return View();
+        }
     }
 }
