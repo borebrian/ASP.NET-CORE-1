@@ -35,6 +35,11 @@ namespace Fuela_clients.Controllers
         public ViewResult AddNewBook()
         {
             return View();
+        }  
+        
+        public ViewResult AddNewBook1(BooksModel booksModel)
+        {
+            return View();
         }
     }
 }
