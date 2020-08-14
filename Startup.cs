@@ -30,7 +30,7 @@ namespace Fuela_clients
             services.AddControllersWithViews();
            services.AddRazorPages().AddRazorRuntimeCompilation();
             //services.AddDbContext<ApplicationDBContext>();
-            services.AddDbContext<ApplicationDBContext>(options => options.UseSqlServer("Server = DESKTOP - FA4I5Q1\\SQLEXPRESS; Database = myDataBase; Trusted_Connection = True; "));
+            services.AddDbContext<ApplicationDBContext>(options => options.UseSqlServer("Server =DESKTOP-FA4I5Q1\\SQLEXPRESS; Database = Bookstore; Integrated Security = True; "));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

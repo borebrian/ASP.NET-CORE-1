@@ -22,5 +22,7 @@ namespace Fuela_clients.Context
         public string Language { get; set; }
         public int TotalPages { get; set; }
         public string Description { get; set; }
+        public DateTime? MyProperty { get; set; }
+        public DateTime? updatedon { get; set; }
     }
 }
